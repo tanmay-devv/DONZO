@@ -1,7 +1,7 @@
 
 # DONZO 🚀
 
-**DONZO** is your go-to cleanup homie — it scans all your files and sorts them into folders based on file types automatically. No more messy desktop stress, just pure organization magic! 🧹✨
+**DONZO** is your go-to cleanup homie — it scans all your files and sorts them into folders based on their **file extensions** automatically. No more messy desktop stress, just pure organization magic! 🧹✨
 
 ---
 
@@ -44,7 +44,7 @@ Detailed instructions coming soon, but you got this! 💪
    ```bash
    donzo
    ```
-4. Watch your files magically sort into folders like `Images`, `Documents`, `Music`, and more!
+4. Watch your files magically sort themselves into folders named after their extensions — like `.jpg`, `.mp3`, `.pdf`, etc.
 
 ---
 
@@ -65,23 +65,27 @@ Detailed instructions coming soon, but you got this! 💪
 
 ```
 📂 messy-folder
- ├── Images
+ ├── .jpg
  │    └── photo1.jpg
- ├── Documents
- │    ├── report.pdf
- │    └── notes.txt
- ├── Music
+ ├── .pdf
+ │    └── report.pdf
+ ├── .mp3
  │    └── song.mp3
- └── Videos
-      └── movie.mp4
+ ├── .mp4
+ │    └── movie.mp4
+ └── .txt
+      └── notes.txt
 ```
 
 ---
 
 ## Features ✨
 
-- Auto-categorizes files by extension  
-- Creates folders like `Images`, `Documents`, `Music`, `Videos`, and more  
-- Super simple command line usage  
-- Currently Linux-ready, Windows support coming soon!
+- Automatically creates folders based on **file extensions**
+- Neatly organizes everything in a single command
+- Simple command line usage — no setup madness
+- Currently works on Linux, Windows support coming soon!
 
+---
+
+Feel free to ask if you want me to hook up sample screenshots or animated GIFs to make this README even more 👌 on GitHub!
